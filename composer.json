@@ -1,0 +1,10 @@
+{
+	"name": "andrelohmann-silverstripe/smtpmailer",
+	"type": "silverstripe-module",
+	"description": "SMTPMailer for Silverstripe",
+	"require": {
+		"php": ">=5.3.2",
+		"composer/installers": "*"
+	},
+	"minimum-stability": "stable"
+}
