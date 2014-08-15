@@ -1,7 +1,7 @@
 {
-	"name": "andrelohmann-silverstripe/smtpmailer",
-	"type": "silverstripe-module",
-	"description": "SMTPMailer for Silverstripe",
+	"name": "andrelohmann-silverstripe-themes/bootstrap",
+	"type": "silverstripe-theme",
+	"description": "Bootstrap Theme for Silverstripe",
 	"require": {
 		"php": ">=5.3.2",
 		"composer/installers": "*"
