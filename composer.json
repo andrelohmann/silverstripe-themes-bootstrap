@@ -2,6 +2,14 @@
 	"name": "andrelohmann-silverstripe-themes/bootstrap",
 	"type": "silverstripe-theme",
 	"description": "Bootstrap Theme for Silverstripe",
+	"license": "BSD-3-Clause",
+	"keywords": ["silverstripe", "framework"],
+	"authors": [
+		{
+			"name": "Andre Lohmann",
+			"homepage": "https://github.com/andrelohmann"
+		}
+	],
 	"require": {
 		"php": ">=5.3.2",
 		"composer/installers": "*"
