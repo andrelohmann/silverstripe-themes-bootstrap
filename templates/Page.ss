@@ -11,8 +11,8 @@
         
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
         
-        <!-- Optional theme -- >
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.2.0/cosmo/bootstrap.min.css" /-->
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.2.0/cerulean/bootstrap.min.css" />
         
         <!-- Optional theme -- >
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" /-->
@@ -22,8 +22,8 @@
         <style type="text/css">
 
             body {
-                padding-top: 70px;
-                padding-bottom: 70px;
+                padding-top: 51px;
+                padding-bottom: 51px;
             }
             /*
             
@@ -151,10 +151,8 @@
                 </div><!--/.navbar-collapse -->
             </div>
         </nav>
-    
-        <div class="container">
-            $Layout
-        </div>
+
+        $Layout
 
         <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
             <div class="container">
