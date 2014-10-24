@@ -25,65 +25,6 @@
                 padding-top: 51px;
                 padding-bottom: 51px;
             }
-            /*
-            
-            @font-face {
-                font-family: 'UbuntuTitlingBold';
-                src: url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.eot');
-                src: url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-                     url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.woff') format('woff'),
-                     url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.ttf') format('truetype'),
-                     url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.svg#UbuntuTitlingBold') format('svg');
-                font-weight: normal;
-                font-style: normal;
-            }
-            
-            .navbar-inner {
-                background-color: goldenrod; / * background color will be black for all browsers * /
-                background-image: -moz-linear-gradient(top, goldenrod, gold);
-                background-image: -webkit-gradient(linear, 0 0, 0 100%, from(goldenrod), to(gold));
-                background-image: -webkit-linear-gradient(top,goldenrod,gold);
-                background-image: -o-linear-gradient(top,goldenrod,gold);
-                background-image: linear-gradient(to bottom,goldenrod,gold);
-                border-color: #222;
-                background-repeat: no-repeat;
-                filter: none;
-            }
-
-            .navbar .navbar-text {
-                color: white;
-            }
-            
-            .navbar .nav > li > a {
-                text-shadow: none;
-                color: white;
-            }
-            
-            .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-                background-color: orange;
-                box-shadow: inset 0px 3px 8px rgba(0, 0, 0, 0.126);
-                color: #555555;
-                text-decoration: none;
-            }
-
-            .navbar .navbar-brand {
-                font-family: UbuntuTitlingBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
-                padding: 5px 5px 4px 0px;
-                color: white;
-            }
-            
-            .jumbotron {
-                padding: 10px;
-                margin-bottom: 10px;
-                font-size: 18px;
-                font-weight: 200;
-                line-height: 30px;
-                color: inherit;
-                background: transparent url(project_home/images/hero-unit-bg.png) 0px 0px repeat;
-                -webkit-border-radius: 6px;
-                -moz-border-radius: 6px;
-                border-radius: 6px;
-            }*/
         </style>
 
         <!-- Fav and touch icons -->
