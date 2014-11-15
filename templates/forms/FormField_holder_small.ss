@@ -1,3 +1,6 @@
+<% if $IsHidden %>
+    $Field
+<% else %>
 <% if $IsHorizontal %>
     <div class="form-group">
         <% if $Title && $hasData %>
@@ -22,4 +25,5 @@
         $Field
         <% if $RightTitle %><span class="help-block">$RightTitle</span><% end_if %>
     </div>
+<% end_if %>
 <% end_if %>

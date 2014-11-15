@@ -1,3 +1,6 @@
+<% if $IsHidden %>
+    $Field
+<% else %>
 <% if $IsHorizontal %>
     <div class="form-group">
         <% if $Title && $hasData %>
@@ -98,4 +101,5 @@
         <% end_if %>
     </div>
     <% end_if %>
+<% end_if %>
 <% end_if %>
