@@ -13,18 +13,18 @@
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
         
         <!-- Optional theme -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.1/cerulean/bootstrap.min.css" />
-        
-        <!-- Optional theme -- >
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" /-->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css" />
 
+        <!-- http://fortawesome.github.io/Font-Awesome/ -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+        <!-- https://useiconic.com/open/ -->
+        <link href="//cdn.jsdelivr.net/open-iconic/1.1.0/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
         
         <style type="text/css">
 
             body {
-                padding-top: 51px;
-                padding-bottom: 51px;
+                padding-top: 64px;
+                padding-bottom: 64px;
             }
         </style>
 
@@ -62,6 +62,7 @@
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -90,10 +91,11 @@
                         <li><a href="home/imprint">IMPRINT</a></li>
                     </ul>
                     <% end_if %>
-                    $BootstrapNavbarLoginForm
+                    $BootstrapNavbarModalLoginForm
                 </div><!--/.navbar-collapse -->
             </div>
         </nav>
+        $BootstrapNavbarModalLoginForm.Modal
 
         $Layout
 
@@ -120,6 +122,5 @@
             </div>
         </nav>
         <!-- Latest compiled and minified JavaScript -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     </body>
 </html>
