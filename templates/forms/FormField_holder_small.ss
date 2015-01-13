@@ -4,17 +4,17 @@
 <% if $IsHorizontal %>
     <div class="form-group">
         <% if $Title && $hasData %>
-            <label class="col-md-2 control-label" for="$id">$Title</label>
+            <label class="col-sm-2 control-label" for="$id">$Title</label>
         <% else %>
-            <div class="col-md-2"></div>
+            <div class="col-sm-2"></div>
         <% end_if %>
         
-        <div class="col-md-9">
+        <div class="col-sm-9">
             $Field
         </div>
         
         <% if $RightTitle %>
-            <div class="col-md-1">
+            <div class="col-sm-1">
                 <span class="help-inline"><a href="#" data-toggle="tooltip" title="$RightTitle"><i class="glyphicon glyphicon-question-sign"></i></a></span>
             </div>
         <% end_if %>
