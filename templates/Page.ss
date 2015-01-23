@@ -108,7 +108,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <p class="navbar-text navbar-left">&copy; 2014</p>
+                    <p class="navbar-text navbar-left">&copy; 2015</p>
                 </div>
                 
                 <div class="collapse navbar-collapse" id="bottom-navigation">
