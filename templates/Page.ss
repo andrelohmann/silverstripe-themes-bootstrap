@@ -80,8 +80,8 @@
             });
         </script>
     </head>
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <body id="page-top" data-spy="scroll" data-target="#page-top"><!-- data-target="#top-nav" IF WE ONLY WANT SPY ON TOP NAVBAR -->
+        <nav id="top-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container"><!-- This container will center the Navbar Contents to the fluid width, by uncommenting it, the whole width will be used -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-navigation">
