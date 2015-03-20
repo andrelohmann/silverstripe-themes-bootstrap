@@ -67,6 +67,8 @@
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+        <%-- activate smooth scrolling Navigation on OnePagers --%>
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
         <script type="text/javascript">
             $(function() {
@@ -79,8 +81,10 @@
                 });
             });
         </script>
+        <%-- end --%>
+
     </head>
-    <body id="page-top" data-spy="scroll" data-target="#page-top"><!-- data-target="#top-nav" IF WE ONLY WANT SPY ON TOP NAVBAR -->
+    <body id="page-top" data-spy="scroll" data-target="#top-nav"><%-- activated scroll-spy for Top Navigation on OnePagers --%>
         <nav id="top-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container"><!-- This container will center the Navbar Contents to the fluid width, by uncommenting it, the whole width will be used -->
                 <div class="navbar-header">
