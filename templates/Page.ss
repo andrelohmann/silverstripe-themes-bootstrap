@@ -73,11 +73,65 @@
         <script type="text/javascript">
             $(function() {
                 $('a[href*=#]:not([href=#])').bind('click', function(event) {
-                    var $anchor = $(this);
+                    var anchor = $(this);
                     $('html, body').stop().animate({
-                        scrollTop: $($anchor.attr('href')).offset().top
+                        scrollTop: $(anchor.attr('href')).offset().top
                     }, 1500, 'easeInOutExpo');
                     event.preventDefault();
+                });
+            });
+        </script>
+        <%-- end --%>
+
+        <%-- Back to Top Button on OnePagers --%>
+        <style type="text/css">
+            #back-top span {
+                position:fixed;
+                bottom:30px;
+                right:30px;
+                color:#eee;
+                background-color:rgba(0,0,0,0.3);
+                -webkit-transition:all .25s ease;
+                -moz-transition:all .25s ease;
+                -ms-transition:all .25s ease;
+                -o-transition:all .25s ease;
+                transition:all .25s ease;
+                padding:10px;
+                border-radius:5px;
+                text-align:center;
+            }
+
+            #back-top span:hover {
+                background-color:rgba(0,0,0,0.7);
+            }
+
+            #back-top span i {
+                font-size:3em;
+            }
+        </style>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                // hide #back-top first
+                $("#back-top").hide();
+    
+                // fade in #back-top
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 100) {
+                            $('#back-top').fadeIn();
+                        } else {
+                            $('#back-top').fadeOut();
+                        }
+                    });
+
+                    // scroll body to 0px on click
+                    $('#back-top span').click(function () {
+                        $('body,html').animate({
+                            scrollTop: 0
+                        }, 500);
+                        return false;
+                    });
                 });
             });
         </script>
@@ -141,6 +195,10 @@
                 </div>
             </div>
         </nav>
+        <%-- Back to Top Button --%>
+        <div id="back-top">
+            <span><i class="fa fa-chevron-up"></i></span>
+        </div>
         <!-- Latest compiled and minified JavaScript -->
     </body>
 </html>
