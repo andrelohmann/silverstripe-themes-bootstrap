@@ -189,6 +189,11 @@
             </div>
         </nav>
         $BootstrapNavbarModalLoginForm.Modal
+        
+        <%--
+            // Include CookiesWarning if gua-cookie-policy module is installed
+            <% include CookiesWarning %>
+        <%--
 
         $Layout
         
@@ -248,5 +253,9 @@
                 }
             })();
         </script>
+        <%--
+            // Include Google Analytics if gua-cookie-policy module is installed
+            <% include GoogleAnalytics %>
+        <%--
     </body>
 </html>
