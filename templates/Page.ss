@@ -32,6 +32,12 @@
         <%--link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" /--%>
         <link href="{$ThemeDir}/css/ionicons/ionicons.min.css" rel="stylesheet" />
         
+        <%--
+            // necessary shariff styles
+            // include font-awesome before
+            <link href="shariff/css/shariff.min.css" rel="stylesheet" />
+        --%>
+        
         <style type="text/css">
 
             body {
@@ -185,6 +191,14 @@
         $BootstrapNavbarModalLoginForm.Modal
 
         $Layout
+        
+        <%--
+            // If you like to use shariff, place the following code somewhere on your Page
+            // configure following this guide: https://github.com/heiseonline/shariff#options-data-attributes
+            <div class="container">
+                <div class="shariff" data-backend-url="shariff" data-lang="$CurrentLang" data-url="$AbsoluteURLPath" data-orientation="horizontal"></div>
+            </div>
+        --%>
 
         <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
             <div class="container">
@@ -213,6 +227,9 @@
             <span><i class="fa fa-chevron-up"></i></span>
         </div>
         <!-- Latest compiled and minified JavaScript -->
+        <%--
+            // Necessary shariff library
+            <script src="shariff/javascript/shariff.min.js"></script>
         <%--
             // See the Getting Started docs for more information:
             // http://getbootstrap.com/getting-started/#support-ie10-width
