@@ -1,7 +1,7 @@
-# Silverstripe Twitter Bootstrap Theme - (c) Andre Lohmann (and others) 2015
+# Silverstripe Twitter Bootstrap Theme - (c) Andre Lohmann (and others) 2016
 
-## Silverstripe Version 3.2.0-rc1
-## Bootstrap Version 3.3.5
+## Silverstripe Version 3.3.x
+## Bootstrap Version 3.3.6
 
 ## Maintainer Contact 
  * Andre Lohmann
@@ -9,7 +9,7 @@
 
 ## Requirements
 
-Silverstripe 3.2.x
+Silverstripe 3.3.x
 
 ## Introduction
 
