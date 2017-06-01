@@ -9,7 +9,7 @@
 
 ## Requirements
 
-Silverstripe 3.3.x
+Silverstripe 3.6.x
 
 ## Introduction
 
