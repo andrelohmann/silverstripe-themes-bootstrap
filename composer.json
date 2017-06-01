@@ -14,5 +14,15 @@
 		"php": ">=5.4",
 		"composer/installers": "*"
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "stable",
+	"scripts": {
+            "post-install-cmd": [
+              "sed -i -e 's/$.support.focusinBubbles = !!($.browser.msie);/$.support.focusinBubbles = !!($.browser) && !$.browser.msie;/g' framework/thirdparty/jquery-entwine/dist/jquery.concrete-dist.js",
+              "sed -i -e 's/$.support.focusinBubbles = !!($.browser.msie);/$.support.focusinBubbles = !!($.browser) && !$.browser.msie;/g' framework/thirdparty/jquery-entwine/dist/jquery.entwine-dist.js"
+            ],
+            "post-update-cmd": [
+              "sed -i -e 's/$.support.focusinBubbles = !!($.browser.msie);/$.support.focusinBubbles = !!($.browser) && !$.browser.msie;/g' framework/thirdparty/jquery-entwine/dist/jquery.concrete-dist.js",
+              "sed -i -e 's/$.support.focusinBubbles = !!($.browser.msie);/$.support.focusinBubbles = !!($.browser) && !$.browser.msie;/g' framework/thirdparty/jquery-entwine/dist/jquery.entwine-dist.js"
+            ]
+          }
 }

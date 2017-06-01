@@ -15,11 +15,18 @@ Silverstripe 3.6.x
 
 This Theme provides a general Page.ss Template as a startingpoint for a new Project. 
 
-## Notice
-This repository uses the git flow paradigm.
-After each release cycle, do not forget to push tags, master and develop to the remote origin
+put the follwoing post install and post updates scripts into your composer.json
+
 ```
-git push --tags
-git push origin develop
-git push origin master
+
+    "scripts": {
+        "post-install-cmd": [
+            "sed -i -e 's/$.support.focusinBubbles = !!($.browser.msie);/$.support.focusinBubbles = !!($.browser) && !$.browser.msie;/g' framework/thirdparty/jquery-entwine/dist/jquery.concrete-dist.js",
+            "sed -i -e 's/$.support.focusinBubbles = !!($.browser.msie);/$.support.focusinBubbles = !!($.browser) && !$.browser.msie;/g' framework/thirdparty/jquery-entwine/dist/jquery.entwine-dist.js"
+        ],
+        "post-update-cmd": [
+            "sed -i -e 's/$.support.focusinBubbles = !!($.browser.msie);/$.support.focusinBubbles = !!($.browser) && !$.browser.msie;/g' framework/thirdparty/jquery-entwine/dist/jquery.concrete-dist.js",
+            "sed -i -e 's/$.support.focusinBubbles = !!($.browser.msie);/$.support.focusinBubbles = !!($.browser) && !$.browser.msie;/g' framework/thirdparty/jquery-entwine/dist/jquery.entwine-dist.js"
+        ]
+    },
 ```
